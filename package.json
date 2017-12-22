@@ -1,13 +1,13 @@
 {
   "name": "floof-session",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "Cookie-based sessions for floof!",
   "main": "index.js",
   "repository": "https://github.com/floofjs/floof-session.git",
   "author": "phantamanta44",
   "license": "MIT",
   "dependencies": {
-    "floof": "^0.0.3",
+    "floof": "^1.0.5",
     "hash.js": "^1.1.3"
   }
 }
