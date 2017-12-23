@@ -58,7 +58,7 @@ class SessionPlugin {
     const serialized = this.serialization.serialize(
       req.__newSessionHash.length + '!' +
       req.__newSessionHash + req.__sessionSerialized);
-    res.cookie('session', serialized, this.maxAge);
+    res.cookie('session', serialized, this.maxAge, '/');
   }
   
   init(floofball) {

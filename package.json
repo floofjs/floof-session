@@ -1,6 +1,6 @@
 {
   "name": "floof-session",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Cookie-based sessions for floof!",
   "main": "index.js",
   "repository": "https://github.com/floofjs/floof-session.git",
